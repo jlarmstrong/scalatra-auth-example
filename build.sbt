@@ -15,7 +15,8 @@ libraryDependencies ++= Seq(
   "javax.servlet" % "servlet-api" % "2.5" % "provided",
   "net.liftweb" %% "lift-json" % "2.4-M3",
 "net.liftweb" %% "lift-mongodb-record" % "2.4-M3",
-"org.scalatra" %% "scalatra-auth" % "2.0.0-SNAPSHOT"
+"org.scalatra" %% "scalatra-auth" % "2.0.0-SNAPSHOT",
+  "org.slf4j" % "slf4j-simple" % "1.6.1" % "runtime"
 )
 
 resolvers += "Sonatype OSS Snapshots" at "http://oss.sonatype.org/content/repositories/snapshots/"
